@@ -95,13 +95,13 @@ footer {
 }
 .profile-pic {
   width: 450px;
+  align-items: center;
 }
-.pic-info,
+
 .info {
   background-color: #f9dee3;
 }
-.info2 {
-  margin-right: 150;
+.info2,
+.pic-info {
   background-color: #f9dee3;
-  margin-right: 200px;
 }
