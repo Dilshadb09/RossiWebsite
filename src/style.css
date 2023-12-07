@@ -2,5 +2,19 @@
 font-family: 'Palanquin Dark', sans-serif;
 font-family: 'Poppins', sans-serif; */
 
+:root {
+  --primary-color: rgb(255, 29, 0);
+  --footer-color: rgb(40, 35, 35);
+}
 body {
+  background-color: rgb(239, 239, 234);
+}
+h1 {
+  font-family: "Palanquin Dark", sans-serif;
+  font-size: 72px;
+  color: var(--primary-color);
+}
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: ;
 }
