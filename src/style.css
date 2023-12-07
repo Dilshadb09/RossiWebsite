@@ -94,9 +94,14 @@ footer {
   color: white;
 }
 .profile-pic {
-  width: 400px;
+  width: 450px;
 }
 .pic-info,
-.info2 {
+.info {
   background-color: #f9dee3;
+}
+.info2 {
+  margin-right: 150;
+  background-color: #f9dee3;
+  margin-right: 200px;
 }
