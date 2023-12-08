@@ -97,6 +97,7 @@ footer {
 }
 .profile-pic {
   width: 450px;
+  border-radius: 50%;
 }
 
 .info1 {
