@@ -73,7 +73,7 @@ h3 {
 }
 
 footer {
-  background-color: rgb(40, 35, 35);
+  background-color: rgb(33, 37, 41);
 }
 .logo {
   font-family: "Palanquin Dark", sans-serif;
@@ -95,13 +95,11 @@ footer {
 }
 .profile-pic {
   width: 450px;
-  align-items: center;
 }
 
-.info {
+.pic-info {
   background-color: #f9dee3;
 }
-.info2,
-.pic-info {
+.info2 {
   background-color: #f9dee3;
 }
