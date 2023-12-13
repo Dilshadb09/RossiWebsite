@@ -41,6 +41,7 @@ h2 {
   font-family: "Nunito", sans-serif;
   font-weight: 600px;
 }
+
 .contact {
   background-color: #f9dee3;
   border-radius: 20px;
@@ -110,9 +111,42 @@ footer {
   -webkit-box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
 }
+
 @media (max-width: 600px) {
   body {
     margin-top: 150px;
+  }
+  .overlay {
+    display: none;
+  }
+  .container {
+    display:block
+  }
+  .col-md-4 {
+    width: 100%; 
+  }
+  .card {
+    margin-bottom: 10px;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .commision {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+  .contact-button {
+    display: flex;
+
+    width: 200px;
+    padding: 18px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin: auto;
+    margin-bottom: 20px;
   }
   h1 {
     margin-top: 230px;
@@ -125,5 +159,8 @@ footer {
   }
   p {
     font-size: 16px;
+  }
+  .footer {
+    display: none;
   }
 }
