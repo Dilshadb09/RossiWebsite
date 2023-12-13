@@ -104,6 +104,11 @@ a :hover {
 }
 .instgram {
   color: white;
+  padding-left: 70px;
+}
+
+a:hover {
+  color: red;
 }
 .profile-pic {
   width: 450px;
