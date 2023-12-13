@@ -119,12 +119,7 @@ footer {
   .overlay {
     display: none;
   }
-  .container {
-    display:block
-  }
-  .col-md-4 {
-    width: 100%; 
-  }
+
   .card {
     margin-bottom: 10px;
   }
