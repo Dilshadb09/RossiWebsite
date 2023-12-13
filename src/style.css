@@ -77,6 +77,16 @@ h3 {
 footer {
   background-color: rgb(33, 37, 41);
 }
+.social-links,
+a {
+  color: black;
+  padding: 3px;
+}
+.social-links,
+a :hover {
+  color: red;
+}
+
 .logo {
   font-family: "Palanquin Dark", sans-serif;
   font-size: 45px;
