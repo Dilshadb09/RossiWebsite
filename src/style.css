@@ -129,7 +129,12 @@ a:hover {
 
 @media (max-width: 600px) {
   body {
-    margin-top: 150px;
+    margin-top: 60px;
+  }
+  .navbar-brand {
+    font-size: 30px;
+
+    margin-top: -7px;
   }
   .overlay {
     display: none;
@@ -144,8 +149,11 @@ a:hover {
   .commision {
     display: flex;
     justify-content: center;
-    text-align: center;
-    margin: auto;
+    margin-left: -105px;
+    margin-bottom: -50px;
+  }
+  .workTogether {
+    display: none;
   }
   .contact-button {
     display: flex;
@@ -158,18 +166,29 @@ a:hover {
     margin: auto;
     margin-bottom: 20px;
   }
+  .image-container {
+    display: none;
+  }
+  .profile-pic {
+    width: 200px;
+  }
   h1 {
-    margin-top: 230px;
-    font-size: 35px;
+    margin-top: 50px;
+    font-size: 30px;
     color: rgb(255, 29, 0);
   }
   h2 {
     font-weight: 300px;
-    font-size: 20;
+    font-size: 12;
+  }
+  h3 {
+    font-size: 25px;
+    text-align: center;
   }
   p {
-    font-size: 16px;
+    font-size: 12px;
   }
+
   .footer {
     display: none;
   }
